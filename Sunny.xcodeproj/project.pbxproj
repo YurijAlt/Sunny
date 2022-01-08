@@ -16,6 +16,8 @@
 		352AD27B2404DD6600FE672A /* ViewController+alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AD27A2404DD6600FE672A /* ViewController+alertController.swift */; };
 		C434FA552788EDD400955242 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C434FA542788EDD400955242 /* NetworkManager.swift */; };
 		C434FA572788EEC700955242 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C434FA562788EEC700955242 /* Constants.swift */; };
+		C434FD68278A14980056EFCF /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C434FD67278A14980056EFCF /* CurrentWeatherData.swift */; };
+		C434FD6A278A19640056EFCF /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C434FD69278A19640056EFCF /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		352AD27A2404DD6600FE672A /* ViewController+alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+alertController.swift"; sourceTree = "<group>"; };
 		C434FA542788EDD400955242 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C434FA562788EEC700955242 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C434FD67278A14980056EFCF /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
+		C434FD69278A19640056EFCF /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				C434FA542788EDD400955242 /* NetworkManager.swift */,
+				C434FD67278A14980056EFCF /* CurrentWeatherData.swift */,
+				C434FD69278A19640056EFCF /* CurrentWeather.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,9 +195,11 @@
 			files = (
 				352AD2652403FA5700FE672A /* ViewController.swift in Sources */,
 				352AD27B2404DD6600FE672A /* ViewController+alertController.swift in Sources */,
+				C434FD6A278A19640056EFCF /* CurrentWeather.swift in Sources */,
 				C434FA552788EDD400955242 /* NetworkManager.swift in Sources */,
 				352AD2612403FA5700FE672A /* AppDelegate.swift in Sources */,
 				352AD2632403FA5700FE672A /* SceneDelegate.swift in Sources */,
+				C434FD68278A14980056EFCF /* CurrentWeatherData.swift in Sources */,
 				C434FA572788EEC700955242 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
