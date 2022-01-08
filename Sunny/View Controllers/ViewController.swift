@@ -18,7 +18,9 @@ class ViewController: UIViewController {
     let networkManager = NetworkManager()
     
     @IBAction func searchPressed(_ sender: UIButton) {
-        self.presentSearchAlertController(withTitle: "Enter city name", message: nil, style: .alert)
+        self.presentSearchAlertController(withTitle: "Enter city name", message: nil, style: .alert) { city in
+            self.networkManager.fetchCurrentWeather(forCity: city)
+        }
     }
     
     override func viewDidLoad() {
