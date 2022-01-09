@@ -7,10 +7,17 @@
 //
 
 import Foundation
+import CoreLocation
 
 
 
 class NetworkManager {
+    
+    enum RequestType {
+        case cityName(city: String)
+        case coordinte(latitude: CLLocationDegrees, longitude: CLLocationDegrees)
+    }
+    
     
     var onCompletion: ((CurrentWeather) -> Void)?
     
